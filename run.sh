@@ -1,5 +1,7 @@
 #!/bin/bash
 
-jekyll --server
+jekyll --safe --server
+#jekyll --server
+#jekyll --pygments --no-lsi --safe
 
 exit 0
