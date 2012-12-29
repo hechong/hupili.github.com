@@ -10,9 +10,10 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Eight Roads
-tagline: Site Tagline
+tagline: what is site tagline? 
 author :
   name : Pili HU
+  short_name: hpl
   email : hupili [at] ie [dot] cuhk [dot] edu [dot] hk
   github : hupili
   twitter : inbridge
@@ -81,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : eightroads
     livefyre :
       site_id : 123
     intensedebate :
@@ -99,7 +100,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-37311363-1'
     getclicky :
       site_id : 
     mixpanel :
