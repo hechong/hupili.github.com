@@ -7,6 +7,10 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Ignore 'others' directory so that I can more conveniently do experiments with others Jekyll blogs:
+   [Jekyll Ignore](http://blog.patrickcrosby.com/2009/09/05/jekyll-exclude-files.html)
+   Also [Jekyll Issue](https://github.com/mojombo/jekyll/issues/77)
+   (do not use wildcard). 
    * Adapt [yanping](https://github.com/yanping/art)'s 
    index template to show recent blog list. 
    * Note down
