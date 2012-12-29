@@ -5,7 +5,14 @@ This is Pili's personal blog with JekyllBootstrap backend.
 For all usage and documentation of JekyllBootstrap, 
 please see: <http://jekyllbootstrap.com>
 
-## ChnageLog and Reference. 
+## ChangeLog and Reference. 
+
+   * Note down
+   [yanping](https://github.com/yanping/art). 
+   May change comment system to Duoshuo later. 
+   * Follow 
+   [erjjones](https://github.com/erjjones/erjjones.github.com)'s
+   note to setup the site and the feedback button. 
 
 ## License
 
