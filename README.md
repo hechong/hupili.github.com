@@ -7,6 +7,8 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Adapt [yanping](https://github.com/yanping/art)'s 
+   index template to show recent blog list. 
    * Note down
    [yanping](https://github.com/yanping/art). 
    May change comment system to Duoshuo later. 
