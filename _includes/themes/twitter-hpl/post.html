@@ -4,7 +4,27 @@
 
 <div class="row">
 	<div class="span8">
-		{{ content }}
+		{% if page.description %}
+		<div class="post-description">
+			<strong> &nbsp;&nbsp;&nbsp;&nbsp; 题记:</strong>
+			{{page.description}}
+			<i>&nbsp; --&nbsp;
+				{{site.author.pen_name}}
+				({{page.date | date_to_long_string}})
+			</i>
+		</div>
+		<br />
+		{% endif %}
+		<div class="post-body">
+			{{ content }}
+		</div>
+		<br />
+		<p class="post-signature">
+		by
+		<a href="{{site.author.production_url}}">
+			{{site.author.pen_name}}
+		</a>
+		</p>
 		<hr>
 		<div class="pagination">
 			<ul>
