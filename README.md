@@ -2,6 +2,9 @@
 
 This is Pili's personal blog with JekyllBootstrap backend. 
 
+Please visite the website: 
+[http://hupili.github.com/](http://hupili.github.com/)
+
 For all usage and documentation of JekyllBootstrap, 
 please see: <http://jekyllbootstrap.com>
 
