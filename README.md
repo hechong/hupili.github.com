@@ -10,6 +10,13 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Fix the 
+   [excerpt length pitfall](https://github.com/mojombo/jekyll/issues/732). 
+   Further reference: 
+   [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers). 
+   This change failed, 
+   [further issue](https://github.com/Shopify/liquid/issues/166). 
+   * Move side tag bar to the bottom of post. 
    * Ignore 'others' directory so that I can more conveniently do experiments with others Jekyll blogs:
    [Jekyll Ignore](http://blog.patrickcrosby.com/2009/09/05/jekyll-exclude-files.html)
    Also [Jekyll Issue](https://github.com/mojombo/jekyll/issues/77)
