@@ -1,0 +1,25 @@
+---
+layout: page
+title: Feeds
+header: Feeds
+group: navigation
+---
+{% include JB/setup %}
+
+<h2>All Feeds</h2>
+<ul>
+{% assign pages_list = site.pages %}
+
+{% for node in pages_list %}
+{% if node.title != null %}
+  {% if group == null or group == node.group %}
+	{% if node.url contains "/feeds/" %}
+	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+	{% endif %}
+  {% endif %}
+{% endif %}
+{% endfor %}
+
+{% assign pages_list = nil %}
+{% assign group = nil %}
+</ul>

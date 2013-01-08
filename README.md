@@ -10,6 +10,12 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Feeds layout upgrade, leave room for future by-category feeds. 
+   Reference: 
+   1) [html redirect](http://www.instant-web-site-tools.com/html-redirect.html) ;
+   2) [Jekyll template data](https://github.com/mojombo/jekyll/wiki/Template-Data) ;
+   3) [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) ;
+   4) `_includes/JB/pages_list`. 
    * Fix the 
    [excerpt length pitfall](https://github.com/mojombo/jekyll/issues/732). 
    Further reference: 
