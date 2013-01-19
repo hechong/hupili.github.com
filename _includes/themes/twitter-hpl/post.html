@@ -15,8 +15,18 @@
 		</div>
 		<br />
 		{% endif %}
+
+<!-- hpl meta title:{{page.title}} -->
+<!-- hpl meta description:{{page.description}} -->
+<!-- hpl meta author:{{site.author.pen_name}} -->
+<!-- hpl meta date:{{ page.date | date_to_long_string }} -->
+
 		<div class="post-body">
+
+<!-- hpl body begin -->
 			{{ content }}
+<!-- hpl body end -->
+
 		</div>
 		<br />
 		<p class="post-signature">
