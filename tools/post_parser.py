@@ -3,13 +3,12 @@ import re
 
 class PostParser(object):
     """docstring for PostParser"""
-    def __init__(self, filename):
+    def __init__(self, stream):
         super(PostParser, self).__init__()
-        self.filename = filename
+        self.stream = stream
 
     def parse(self):
-        with open(self.filename) as fp:
-            return self.parse_compiled_post(fp)
+        return self.parse_compiled_post(self.stream)
         
     def parse_compiled_post_meta(self, arg):
         pt_meta = re.compile('([^:]+):(.+)')
@@ -47,13 +46,13 @@ class PostParser(object):
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
-        #with open(sys.argv[1]) as fp:
-        #    parsed = parse_compiled_post(fp)
-        #    for (k, v) in parsed.iteritems():
-        #        print "%s: %s" % (k, v)
-        parsed = PostParser(sys.argv[1]).parse()
-        for (k, v) in parsed.iteritems():
-            print "%s: %s" % (k, v)
+        with open(sys.argv[1]) as fp:
+            parsed = PostParser(fp).parse()
+            for (k, v) in parsed.iteritems():
+                print "%s: %s" % (k, v)
+        #parsed = PostParser(sys.argv[1]).parse()
+        #for (k, v) in parsed.iteritems():
+        #    print "%s: %s" % (k, v)
     else:
         print '''usage: %s {filename}
     {filename} is the compiled HTML file name under your '_site' directory
