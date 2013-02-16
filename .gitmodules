@@ -1,3 +1,0 @@
-[submodule "tools/snsapi"]
-	path = tools/snsapi
-	url = git@github.com:hupili/snsapi.git
