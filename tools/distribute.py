@@ -43,9 +43,11 @@ def get_one_new_post(post_list):
     import hashlib
 
     for p in post_list:
-        finger_print = hashlib.sha1(p.raw.summary.encode('utf-8')).hexdigest()
+        #finger_print = hashlib.sha1(p.raw.summary.encode('utf-8')).hexdigest()
+        finger_print = p.parsed.link
         if not finger_print in db:
             print "New post!"
+            print "Finger print:", finger_print
             print p
             db[finger_print] = 1
             return p
@@ -54,7 +56,7 @@ if __name__ == '__main__':
     myrss = create_rss()
     myrenren = create_renren()
 
-    post_list = myrss.home_timeline(2)
+    post_list = myrss.home_timeline(1)
     post = get_one_new_post(post_list)
     if post:
         print "Get one new post. Forward to Renren"
