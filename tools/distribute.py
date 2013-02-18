@@ -7,6 +7,7 @@ from snsapi.platform import RenrenBlog
 
 def create_rss():
     config = RSS.new_channel()
+    # Change to your RSS URL
     config['url'] = 'http://hupili.github.com/feeds/atom-all.xml'
     config['channel_name'] = 'github_rss_all'
     myrss = RSS(config)
@@ -14,6 +15,7 @@ def create_rss():
 
 def create_renren():
     config = RenrenBlog.new_channel()
+    # Change to your Renren App Key and App Secret Key
     config.update({"app_key": "1c62fea4599e420fb4ac2a1fe38cc546",
     "app_secret": "151655bf6c87414e8571da69d8d7bd40",
     "channel_name": "renren_blog",
@@ -24,6 +26,7 @@ def create_renren():
     })
     print config
     myrenren = RenrenBlog(config)
+    print "****Follow the prompt to complete auth flow****"
     myrenren.auth()
     return myrenren
 
