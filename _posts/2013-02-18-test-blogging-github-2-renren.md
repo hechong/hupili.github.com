@@ -23,6 +23,9 @@ tags: ["Jekyll", "Github", "Renren", ":snsapi", "snsapi", "markdown"]
    wordpress的世界里，经常看到有人在下面留言：楼主这个xx功能用的啥插件呢？
    就像是每次有个很火的视频，下面必有人问BGM是什么。。
    这些现象在Jekyll的世界里就不会出现，直接看别人的repo就行了。
+   e.g. 点
+   [这里](https://raw.github.com/hupili/hupili.github.com/master/_posts/2013-02-18-test-blogging-github-2-renren.md)
+   查看本篇blog的源码。
    综上，选择了Github，完胜其他平台几条街啊。
    * **能很方便地在各种平台流通。**
    如今靠订RSS来看博客的人是越来越少了，更多的是靠SNS分享。
