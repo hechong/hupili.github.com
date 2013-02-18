@@ -97,6 +97,7 @@ Jekyll这边跑了一个多月，感觉顺了。
 嵌入文字的代码段`python -i snscli.py`。
 
 代码块测试，就把转发脚本贴过来吧，作为demo还不错：
+（在github上围观，点[这里](https://github.com/hupili/hupili.github.com/blob/master/tools/distribute.py)）
 
 ```
 import sys
