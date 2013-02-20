@@ -62,7 +62,8 @@ tags: ["Jekyll", "Github", "Renren", ":snsapi", "snsapi", "markdown"]
 Jekyll这边跑了一个多月，感觉顺了。
 现在开始向SNS分发。
 第一站，人人。
-[SNSAPI最新的dev](https://github.com/hupili/snsapi/tree/dev)上已经加入RenrenBlog这个plugin。
+[SNSAPI最新的dev](https://github.com/hupili/snsapi/tree/6d94b40e5e6a8e9f82633a2f3d91de5411b545d4)
+上已经加入RenrenBlog这个plugin。
 发blog和发所有平台的status一样！
 分发脚本的逻辑很简单：从RSS平台读新的日志，写到RenrenBlog平台中。
 
