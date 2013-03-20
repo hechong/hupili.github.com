@@ -76,6 +76,8 @@ This is normal as is said in one
 [official post](http://support.apple.com/kb/TS1909?viewlocale=en_US&locale=en_US). 
 It is said in this way battery life will be longer 
 because they avoid short term charge/discharge. 
+More knowledge of 
+[batteries](http://www.apple.com/batteries/).
 
 ### Suggested Battery Use Pattern
 
