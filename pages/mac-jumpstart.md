@@ -1,6 +1,7 @@
 ---
 layout: page
 title: MAC Jumpstart (esp for former Linux users)
+group: article
 tagline: 
 ---
 {% include JB/setup %}

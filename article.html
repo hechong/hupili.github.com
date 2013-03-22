@@ -1,0 +1,14 @@
+---
+layout: page
+title: Article
+header: Article
+group: navigation
+weight: 85
+---
+{% include JB/setup %}
+
+<ul class="nav">
+  {% assign pages_list = site.pages %}
+  {% assign group = 'article' %}
+  {% include JB/pages_list %}
+</ul>

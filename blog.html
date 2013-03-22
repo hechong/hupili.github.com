@@ -1,0 +1,21 @@
+---
+layout: page
+weight: 90
+title: Blog
+header: Blog
+group: navigation
+---
+{% include JB/setup %}
+
+<ul>
+	<li><a href="feeds.html">Feeds</a></li>
+	<li><a href="tags.html">Tags</a></li>
+	<li><a href="categories.html">Categories</a></li>
+</ul>
+
+<hr />
+
+<h2>All Posts</h2>
+
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
