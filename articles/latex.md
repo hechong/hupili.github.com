@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MAC Jumpstart (esp for former Linux users)
+title: Latex Tricks
 group: article
 tagline: 
 ---
@@ -10,10 +10,6 @@ tagline:
 
 This page notes down the snippets of TeX usage of HPL. 
 He started to learn LaTeX in the summer of 2011. 
-
-{evermd:var:begin}
-toc
-{evermd:var:end}
 
 ## Keep code indent 
 
@@ -156,20 +152,15 @@ Remarks: `eqnarray` can be emulated by `tabular`
 
 ## Useful Symbols
 
-{evermd:table:begin}
-& Command & Use
----
-& \Rightarrow & Logic symbol for "if .. then". 
-{evermd:table:end}
+   * `\Rightarrow`: Logic symbol for "if .. then". 
 
 ----------------
 
-Last Compile At: 
-{evermd:var:begin}
-now
-{evermd:var:end}
+This article was originally hosted 
+[here](http://personal.ie.cuhk.edu.hk/~hpl011/homepage/resource/tex-trick.html).
 
-{evermd:var:begin}
-evermd
-{evermd:var:end}
-
+I'm hesitating to move it.
+It looks better there.
+The most important feature is the Table-Of-Content (TOC).
+There should be other MD engines who can do so and also integrates well with Jekyll.
+If anyone is aware of them, please kindly tell me.
