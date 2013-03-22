@@ -8,9 +8,9 @@ group: navigation
 {% include JB/setup %}
 
 <ul>
-	<li><a href="feeds.html">Feeds</a></li>
-	<li><a href="tags.html">Tags</a></li>
-	<li><a href="categories.html">Categories</a></li>
+  {% assign pages_list = site.pages %}
+  {% assign group = 'blogrelated' %}
+  {% include JB/pages_list %}
 </ul>
 
 <hr />

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Buddy List of Eight Roads
-tagline: 
+title: Buddy List
+group: blogrelated
+weight: 60
 ---
 
 {% include JB/setup %}
