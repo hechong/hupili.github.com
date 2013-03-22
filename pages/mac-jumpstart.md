@@ -8,6 +8,15 @@ tagline:
 
 ## Forewords
 
+I switched to MAC Book Pro since Feb 28, 2013.
+Three days later, I brought the MBP with me and went home for a week.
+It's a nice journey.
+Although I have no experience of MAC before, 
+I managed to change my working environment to MAC during the week **on leave**.
+It is fun working with MAC...
+There are also some traps for former Linux users.
+This article intends to help new users to jumpstart.
+
 ## Basic Gestures for Touchpad
 
    * Single point touch: 
