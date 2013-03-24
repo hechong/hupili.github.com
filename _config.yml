@@ -21,6 +21,10 @@ author :
   feedburner : 
 website :
   url : http://hupili.github.com/
+base_links:
+  blog: http://hupili.github.com
+  github: https://github.com/hupili
+  github_raw: https://raw.github.com/hupili
 
 future:      true
 markdown:    redcarpet

@@ -24,7 +24,7 @@ tags: ["Jekyll", "Github", "Renren", ":snsapi", "snsapi", "markdown"]
    就像是每次有个很火的视频，下面必有人问BGM是什么。。
    这些现象在Jekyll的世界里就不会出现，直接看别人的repo就行了。
    e.g. 点
-   [这里](https://raw.github.com/hupili/hupili.github.com/master/_posts/2013-02-18-test-blogging-github-2-renren.md)
+   [这里]({{site.base_links.github_raw}}/hupili.github.com/master/_posts/2013-02-18-test-blogging-github-2-renren.md)
    查看本篇blog的源码。
    综上，选择了Github，完胜其他平台几条街啊。
    * **能很方便地在各种平台流通。**
@@ -55,14 +55,14 @@ tags: ["Jekyll", "Github", "Renren", ":snsapi", "snsapi", "markdown"]
    之前一直对人人的检索功能耿耿于怀，在上面写的东西自己都要找半天。
    OSN的重心都在信息传递上，对知识管理的支持非常差。
    由于平台封闭，也没法使用第三方的搜索服务。
-   现在好了，文章都在一个[repo](https://github.com/hupili/hupili.github.com)里面。
+   现在好了，文章都在一个[repo]({{site.base_links.github}}/hupili.github.com)里面。
    要快速查找，`grep -R`就出来了，方便吧。
    不想下载repo的同学，也可以直接到Google上搜索。
 
 Jekyll这边跑了一个多月，感觉顺了。
 现在开始向SNS分发。
 第一站，人人。
-[SNSAPI最新的dev](https://github.com/hupili/snsapi/tree/6d94b40e5e6a8e9f82633a2f3d91de5411b545d4)
+[SNSAPI最新的dev]({{site.base_links.github}}/snsapi/tree/6d94b40e5e6a8e9f82633a2f3d91de5411b545d4)
 上已经加入RenrenBlog这个plugin。
 发blog和发所有平台的status一样！
 分发脚本的逻辑很简单：从RSS平台读新的日志，写到RenrenBlog平台中。
@@ -98,7 +98,7 @@ Jekyll这边跑了一个多月，感觉顺了。
 嵌入文字的代码段`python -i snscli.py`。
 
 代码块测试，就把转发脚本贴过来吧，作为demo还不错：
-（在github上围观，点[这里](https://github.com/hupili/hupili.github.com/blob/master/tools/distribute.py)）
+（在github上围观，点[这里]({{site.base_links.github}}/hupili.github.com/blob/master/tools/distribute.py)）
 
 ```
 import sys
@@ -194,15 +194,15 @@ if __name__ == '__main__':
 
 ### 纯链接
 
-[http://hupili.github.com/favicon.ico](http://hupili.github.com/favicon.ico)
+[{{site.website.url}}/favicon.ico]({{site.website.url}}/favicon.ico)
 
 ### 纯图片
 
-![http://hupili.github.com/favicon.ico](http://hupili.github.com/favicon.ico)
+![{{site.website.url}}/favicon.ico]({{site.website.url}}/favicon.ico)
 
 ### 图片链接
 
-[![](http://hupili.github.com/favicon.ico)](http://hupili.github.com/favicon.ico)
+[![]({{site.website.url}}/favicon.ico)]({{site.website.url}}/favicon.ico)
 
 ## 测试引用
 
