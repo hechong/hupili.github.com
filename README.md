@@ -10,6 +10,10 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Support finer grained page ordering by merging 
+   latest JB with page order feature from TheCodeKing.
+   * Make a [buddy list](http://hupili.github.com/pages/buddy-list.html).
+   One can assist himself/herself to add a link there. 
    * Feeds layout upgrade, leave room for future by-category feeds. 
    Reference: 
    1) [html redirect](http://www.instant-web-site-tools.com/html-redirect.html) ;
