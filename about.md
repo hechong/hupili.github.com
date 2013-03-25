@@ -11,7 +11,18 @@ group: navigation
 
 Nothing special.
 
-## This Site 
+   * SinaWeibo: [snsapi_test](http://weibo.com/u/2862649054)
+   * Renren: [胡言兑.hpl](http://www.renren.com/472085551/profile)
+   * Twitter: [inbridge](https://twitter.com/inbridge)
+
+## The blog
+
+"eight roads" in Chinese means "八道", 
+It is substring of "胡说八道", i.e. "bullshit".
+For more, please visit 
+[this page](/pages/hushuo.html) (In Chinese).
+
+## How to Build This Site 
 
 Interested in building a lightweight blog using Github?
 Feel free to 
