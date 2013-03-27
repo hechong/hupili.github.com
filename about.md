@@ -11,8 +11,9 @@ group: navigation
 
 Nothing special.
 
-   * SinaWeibo: [snsapi_test](http://weibo.com/u/2862649054)
+   * Github: [hupili](https://github.com/hupili)
    * Renren: [胡言兑.hpl](http://www.renren.com/472085551/profile)
+   * SinaWeibo: [snsapi_test](http://weibo.com/u/2862649054)
    * Twitter: [inbridge](https://twitter.com/inbridge)
 
 ## The blog
