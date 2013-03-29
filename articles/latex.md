@@ -150,6 +150,17 @@ Remarks: `eqnarray` can be emulated by `tabular`
 \end{tabular}
 ```
 
+## Squeeze Out Space 
+
+Insert the following command at the place you want to reduce blank space. 
+Adjust the value by trials and errors. 
+
+```
+\vspace{-0.25in}
+```
+
+This trick can be very useful to compress your paper into required number of pages...
+
 ## Useful Symbols
 
    * `\Rightarrow`: Logic symbol for "if .. then". 
