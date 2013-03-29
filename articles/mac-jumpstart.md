@@ -31,10 +31,12 @@ This article intends to help new users to jumpstart.
 
 ## Basic Keyboard Shortcuts
 
-   * People who come from Windows or Linux should first note the "Apple Key", i.e. "command". 
-   If you have "control+xxx" in your impression from previous experience, try "command+xxx". 
-   e.g. "command+c" for copy, "command+v" for paste, "command+s" for save, etc. 
+   * People who come from Windows or Linux should first note the "Apple Key", i.e. `command`. 
+   If you have `control+xxx` in your impression from previous experience, try `command+xxx`. 
+   e.g. `command+c` for copy, `command+v` for paste, `command+s` for save, etc. 
    This single tip can help you get back half of the efficiency.
+   * Use `command+option+esc` to force quit an application
+   (like `alt+f4` in many other systems).
 
 ## Input Method (Chinese)
 
