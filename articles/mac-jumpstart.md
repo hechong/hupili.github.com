@@ -38,10 +38,37 @@ This article intends to help new users to jumpstart.
    * Use `command+option+esc` to force quit an application
    (like `alt+f4` in many other systems).
 
+## Terminal Configuration
+
+With the default iTerm, former Linux users can get their work down very quickly. 
+However, the default settings are not so satisfactory. 
+
+   * If you can not input non-ascii characters in VIM,
+   see [this post](http://superuser.com/questions/21292/how-to-use-utf-8-in-vim-on-mac-os-x).
+   quote as follows for your convenience:
+
+> In Terminal.app go the the Terminal (main) menu and choose Window Settings. 
+> Select Emulation from the popup menu, un-check the item "Escape non-ASCII characters". 
+> Then select Display from the popup menu, set Character Set Encoding to Unicode (UTF-8), if desired. 
+> Click on "Use settings as Default."
+
+   * Choose a better colored theme so that you can code comfortably.
+   * Change the window size.
+   * ... (more to come)
+
+If you just want to get sth. done quickly and smoothly, 
+feel free to use my 
+[terminal configuration]({{site.base_links.github}}/utility/tree/master/mac/Terminal).
+It was adapted from [IR_Black](http://toddwerth.com/2011/07/21/the-original-ir_black-for-os-x-lion/).
+All the above improvements are included.
+
 ## Input Method (Chinese)
 
    * Squirrel. 
    Commonly recognized as the best Chinese IME for MAC. 
+   It also has Linux and Windows ports.
+   * Use `control+\`` to call the quick config panel of Squirrel. 
+   Choose "Traditional --> Simplified" if you want to input simplified Chinese. 
 
 ## Tools to Help Linux Geek Jumpstart
 
