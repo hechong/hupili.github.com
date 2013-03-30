@@ -35,6 +35,10 @@ This article intends to help new users to jumpstart.
    If you have `control+xxx` in your impression from previous experience, try `command+xxx`. 
    e.g. `command+c` for copy, `command+v` for paste, `command+s` for save, etc. 
    This single tip can help you get back half of the efficiency.
+   * Treat `command` as `ctrl` and `option` as `alt`.
+   Many operation applies with this simple mapping. 
+   e.g. Use `command` and mouse to select non-consecutive texts.
+   e.g. Use `option` and mouse to select a vertical block. 
    * Use `command+option+esc` to force quit an application
    (like `alt+f4` in many other systems).
 
