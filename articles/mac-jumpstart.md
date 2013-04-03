@@ -28,6 +28,10 @@ This article intends to help new users to jumpstart.
    left/right -- switch between multiple desktops;
    up == F3 -- multi-desktop view.
    * Four fingers scratch: Launchpad. 
+   * [hot corner](http://heresthethingblog.com/2013/01/18/mac-control-desktop-hot-corners/)
+   is a somewhat obsolete (prior to multi-touch pad is available) but useful component. 
+   The gesture is: move your mouse pointer from any direction to the corner; stay there for some time. 
+   (not "flick" or "shove" as was said in some posts)
 
 ## Basic Keyboard Shortcuts
 
@@ -101,6 +105,20 @@ All the above improvements are included.
    * CheatSheet: 
    Press `command` longer and a cheat sheet for keyboard shortcuts will prompt. 
    Hotkeys make MAC more efficient. 
+
+## Energy Saving Configurations
+
+MBP's default configuration suits most people. 
+One thing I'm not satisfied is that there is no default convenient screen lock mechanism
+(like `win+L` in Windows and `ctrl+alt+L` in Unbuntu). 
+Some solutions:
+
+   * `control+shift+eject`. This puts MAC to sleep. 
+   One drawback is that Internet connection will be lost. 
+   * Use "hot corner" to activate screen saver. 
+   This is much better if you leave seats frequently for a few minutes. 
+
+In security and privacy configuration, require password from screen saver or sleep immediately. 
 
 ## File Operations
 
