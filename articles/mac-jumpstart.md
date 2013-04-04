@@ -46,6 +46,7 @@ This article intends to help new users to jumpstart.
    * Use `command+option+esc` to force quit an application
    (like `alt+f4` in many other systems).
 
+
 ## Terminal Configuration
 
 With the default iTerm, former Linux users can get their work down very quickly. 
@@ -119,6 +120,40 @@ Some solutions:
    This is much better if you leave seats frequently for a few minutes. 
 
 In security and privacy configuration, require password from screen saver or sleep immediately. 
+
+## Automator
+
+In "Automator", you can create "workflows", "services", etc. 
+It can be used to customize your MAC to a large degree. 
+Generally speaking, you can:
+
+   * Get actions and data from GUI.
+   * Trigger a shell script. 
+   * Put data to some GUI components, e.g. clipboard. 
+
+As a programmer, you should have realized that you can do nearly everything now. 
+Strongly recommend you give it a try.
+To see what I have, check out my 
+[utility/mac/Services](https://github.com/hupili/utility/tree/master/mac/Services).
+
+## Customized Keyboard Shortcuts
+
+To set global hotkeys:
+
+   * 1. In "System Preference"--"Keyboard", 
+   you can set hotkeys for (only) **application menu items**. 
+   * 2. Other App like "Alfred" or "Quicksilver" provide global hotkey management. 
+   See 
+   [this thread](http://apple.stackexchange.com/questions/24063/create-global-shortcut-to-run-command-line-applications)
+   for a list of such apps.
+
+When I seek for solutions, I prefer system default ones and portable ones first.
+Applying it to the demand here, I avoid any app and do the following:
+
+   * Create a service, as is shown above. 
+   (**the shell scripts are portable to other systems**)
+   * Bind the service to a hotkey via: "System Preference"--"Keyboard".
+   (**system default**)
 
 ## File Operations
 
