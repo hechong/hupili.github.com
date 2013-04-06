@@ -17,6 +17,12 @@ It is fun working with MAC...
 There are also some traps for former Linux users.
 This article intends to help new users to jumpstart.
 
+   * Most of the tips are not step-by-step guide. 
+   Instead, I love those general principles, 
+   which can help people better explore the system. 
+   Bearing those principles in mind, 
+   one can enjoy the process of discovery. 
+
 ## Basic Gestures for Touchpad
 
    * Single point touch: 
@@ -45,7 +51,9 @@ This article intends to help new users to jumpstart.
    e.g. Use `option` and mouse to select a vertical block. 
    * Use `command+option+esc` to force quit an application
    (like `alt+f4` in many other systems).
-
+   * When a menu is active, 
+   usually you can press `option` to get more options
+   (show previously missing ones or change to another set of options). 
 
 ## Terminal Configuration
 
@@ -120,6 +128,16 @@ Some solutions:
    This is much better if you leave seats frequently for a few minutes. 
 
 In security and privacy configuration, require password from screen saver or sleep immediately. 
+
+## Backup 
+
+Time Machine is good enough for most people:
+
+   * See the discussion of  
+   [backup habit](http://creativetechs.com/tipsblog/access-files-from-other-time-machine-backups/).
+   It also points to other software that can make a bootable backup. 
+   * You can also browse files 
+   [from other machine's backup](http://creativetechs.com/tipsblog/access-files-from-other-time-machine-backups/).
 
 ## Automator
 
