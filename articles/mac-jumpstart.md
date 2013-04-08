@@ -25,6 +25,8 @@ This article intends to help new users to jumpstart.
 
 ## Basic Gestures for Touchpad
 
+Touch:
+
    * Single point touch: 
    Move the pointer. 
    * Two points touch: 
@@ -38,6 +40,15 @@ This article intends to help new users to jumpstart.
    is a somewhat obsolete (prior to multi-touch pad is available) but useful component. 
    The gesture is: move your mouse pointer from any direction to the corner; stay there for some time. 
    (not "flick" or "shove" as was said in some posts)
+
+Click:
+
+   * Press the bottom of touchpad is equivalent to "single left click". 
+   (using the windows language). 
+   * "right click": 
+   press the bottom longer; 
+   `control`+click;
+   use two fingers press the bottom.
 
 ## Basic Keyboard Shortcuts
 
@@ -156,6 +167,8 @@ To see what I have, check out my
 
 ## Customized Keyboard Shortcuts
 
+### Manual Configuration
+
 To set global hotkeys:
 
    * 1. In "System Preference"--"Keyboard", 
@@ -172,6 +185,21 @@ Applying it to the demand here, I avoid any app and do the following:
    (**the shell scripts are portable to other systems**)
    * Bind the service to a hotkey via: "System Preference"--"Keyboard".
    (**system default**)
+
+### Programmatical Configuration
+
+There are posts relating to 
+[programmatically add keyboard shortcuts](http://stackoverflow.com/questions/7219134/programmatically-add-keyboard-shortcut-to-mac-system-preferences)
+via `defaults` command. 
+One can also operate 
+[plist](http://support.apple.com/kb/TA24670?viewlocale=en_US&locale=en_US)
+directly. 
+However, I did not find `NSUserKeyEquivalents` in "~/Library/Preferences/.GlobalPreferences.plist".
+I'll come back to update it when I have a good solution. 
+With programmatical configuration, we can:
+
+   * Backup our keyboard shortcuts in a portable way. 
+   * Fast (and probably temporarily) customize another system. 
 
 ## File Operations
 
