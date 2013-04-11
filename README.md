@@ -10,6 +10,8 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Enable comments for certain pages
+   (configure page meta info `comments: true`). 
    * Support finer grained page ordering by merging 
    latest JB with page order feature from TheCodeKing.
    * Make a [buddy list](http://hupili.github.com/pages/buddy-list.html).

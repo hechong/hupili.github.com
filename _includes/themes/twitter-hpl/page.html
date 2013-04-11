@@ -7,3 +7,16 @@
 		{{ content }}
 	</div>
 </div>
+
+{% if page.group == "article" %}
+	{% assign show_comments = true %}
+{% endif %}
+{% if page.comments == true %}
+	{% assign show_comments = true %}
+{% endif %}
+
+{% if show_comments %}
+<div name="comments">
+	{% include JB/comments %}
+</div>
+{% endif %}
