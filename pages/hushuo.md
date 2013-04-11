@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "胡说"
+comments: true
 ---
 {% include JB/setup %}
 
