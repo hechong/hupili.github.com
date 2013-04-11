@@ -10,6 +10,11 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Add section number using css: 
+   [ref1](http://stackoverflow.com/questions/10340276/how-to-add-section-numbers-1-2-3-4-1-automatically-using-css)
+   [ref2](https://developer.mozilla.org/en-US/docs/CSS/Counters).
+   However the refs do not quite work with "twitter" theme in JB.
+   I have to put the `counter-increment` in header instead of "before". 
    * Enable comments for certain pages
    (configure page meta info `comments: true`). 
    * Support finer grained page ordering by merging 
