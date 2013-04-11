@@ -16,6 +16,8 @@ Nothing special.
    * SinaWeibo: [snsapi_test](http://weibo.com/u/2862649054)
    * Twitter: [inbridge](https://twitter.com/inbridge)
 
+See [my social network roll](pages/tint.html) for a simple aggregation. 
+
 ## The blog
 
 "eight roads" in Chinese means "八道", 
