@@ -136,6 +136,12 @@ All the above improvements are included.
    brew will install those commands with a name prefixed by "g". 
    You may want to soft link those commands somewhere and put its directory 
    in front of your `$PATH` in order to override UNIX commands. 
+   * [XQuartz](http://xquartz.macosforge.org)
+   provides a [X window Server](http://en.wikipedia.org/wiki/X11.app).
+   If you are reading this section, 
+   I think the importance of X window server can never be over addressed to you. 
+   With XQuartz, you can for example `ssh -X` to your previous Linux servers
+   and run graphical applications remotely with the windows appear locally on your MAC.
 
 ## Must-install App
 
