@@ -65,6 +65,9 @@ Click:
    * When a menu is active, 
    usually you can press `option` to get more options
    (show previously missing ones or change to another set of options). 
+   * You can [configure the Fx keys](http://support.apple.com/kb/ht3399)
+   to perform the lower row
+   ("F1", "F2", ..., instead of special functions like "Darker", "Brighter").
 
 ## Terminal Configuration
 
