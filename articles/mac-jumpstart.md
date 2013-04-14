@@ -21,9 +21,9 @@ This article intends to help new users to jumpstart.
    Instead, I love those general principles, 
    which can help people better explore the system. 
    Bearing those principles in mind, 
-   one can enjoy the process of discovery. 
+   one can enjoy the process of discovery himself/herself. 
 
-## Basic Gestures for Touchpad
+## Basic Gestures for Trackpad
 
 Touch:
 
@@ -35,7 +35,9 @@ Touch:
    * Three points touch: 
    left/right -- switch between multiple desktops;
    up == F3 -- multi-desktop view.
-   * Four fingers scratch: Launchpad. 
+   * Four fingers scratch/spread: 
+   1) Launchpad on/off; 
+   2) Show desktop. 
    * [hot corner](http://heresthethingblog.com/2013/01/18/mac-control-desktop-hot-corners/)
    is a somewhat obsolete (prior to multi-touch pad is available) but useful component. 
    The gesture is: move your mouse pointer from any direction to the corner; stay there for some time. 
@@ -49,6 +51,18 @@ Click:
    press the bottom longer; 
    `control`+click;
    use two fingers press the bottom.
+
+More:
+
+   * Go to: "System Preference" -- "Trackpad". 
+   You can customize more and see other useful gestures. 
+   This is also the best first course where you can learn trackpad officially. 
+   * Strongly recommended configuration for longer life of trackpad:
+   tick "Tap to click"; tick "Secondary Click" with "two fingers".
+   This is to try best to avoid mechanical press on the bottom of trackpad. 
+   * Note: If you ever try "Three fingers drag" option, 
+   the multi-desktop switch gesture will become **four fingers**. 
+   You can set it back under the "More Gestures" tab. 
 
 ## Basic Keyboard Shortcuts
 
