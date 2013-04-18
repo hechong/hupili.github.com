@@ -8,7 +8,8 @@ tagline:
 
 ## Forewords
 
-I switched to MAC Book Pro since Feb 28, 2013.
+I switched to MAC Book Pro since Feb 28, 2013
+(Model: MacBook Pro, 13-inch, Mid 2012).
 Three days later, I brought the MBP with me and went home for a week.
 It's a nice journey.
 Although I have no experience of MAC before, 
@@ -256,5 +257,13 @@ Summary for me:
    * No over discharge.
    * Better not to always connect to AC adapter.
    * 1-2 times / week full charge cycle.
-   * 2-3 months for a calibration.
+   * ~~2-3 months for a calibration.~~
+   As indicated in the official page on 
+   [calibration](http://support.apple.com/kb/HT1490), 
+   my new model does not have to do calibration.
+   That page is poorly worded so that I can hardly parse its original meaning. 
+   Thanks the 
+   [forum discussion](https://discussions.apple.com/thread/4535281)
+   that makes the point clear. 
+   * One can [check used cycles](http://support.apple.com/kb/ht1519).
 
