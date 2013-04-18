@@ -29,6 +29,9 @@ base_links:
 future:      true
 markdown:    redcarpet
 
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
 maruku:
   use_tex:    false
   use_divs:   false

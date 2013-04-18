@@ -10,6 +10,8 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Add more `redcarpet` options, e.g. support strikethrough. 
+   [ref](http://stackoverflow.com/questions/13464590/github-flavored-markdown-and-pygments-highlighting-in-jekyll)
    * Add section number using css: 
    [ref1](http://stackoverflow.com/questions/10340276/how-to-add-section-numbers-1-2-3-4-1-automatically-using-css)
    [ref2](https://developer.mozilla.org/en-US/docs/CSS/Counters).
