@@ -10,6 +10,8 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Add "random posts section". 
+   [ref](https://raw.github.com/Hawstein/hawstein.github.com/master/_layouts/post.html)
    * Add more `redcarpet` options, e.g. support strikethrough. 
    [ref](http://stackoverflow.com/questions/13464590/github-flavored-markdown-and-pygments-highlighting-in-jekyll)
    * Add section number using css: 
