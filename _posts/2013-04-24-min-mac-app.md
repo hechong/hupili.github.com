@@ -2,15 +2,11 @@
 layout: post
 title: "Minimalist's MAC App Creation"
 category: 
-tags: ["MAC", "App", "minimalist", "plist"]
+tags: ["MAC", "App", "minimalist", "OSX", "plist"]
+description: This is for fresh beginners of MAC to quickly package an application in the `.app` format.
 ---
 
-See the [project repo](https://github.com/hupili/min-mac-app/) for most updated version. 
-
----------------------
-
-This is for fresh beginners of MAC to quickly package an application in the `.app` format.
-People who eagerly want a try can jump to the "Usage" section.
+See the [project repo](https://github.com/hupili/min-mac-app/) for most updated version of this doc.
 
 ## Motivation
 
