@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Minimalist's MAC App Creation"
+language: en
 category: 
 tags: ["MAC", "App", "minimalist", "OSX", "plist"]
 description: This is for fresh beginners of MAC to quickly package an application in the `.app` format.

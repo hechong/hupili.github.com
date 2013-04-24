@@ -2,14 +2,22 @@
 	<h1>{{ page.title }} </h1>
 </div>
 
+{% if page.language == "en" %}
+{% assign pen_name = site.author.pen_name_en %}
+{% assign description_prefix = "Summary: " %}
+{% else %}
+{% assign pen_name = site.author.pen_name_cn %}
+{% assign description_prefix = "题记：" %}
+{% endif %}
+
 <div class="row">
 	<div class="span12">
 		{% if page.description %}
 		<div class="post-description">
-			<strong> &nbsp;&nbsp;&nbsp;&nbsp; 题记:</strong>
+			<strong> &nbsp;&nbsp;&nbsp;&nbsp; {{description_prefix}} </strong>
 			{{page.description}}
 			<i>&nbsp; --&nbsp;
-				{{site.author.pen_name}}
+				{{pen_name}}
 				({{page.date | date_to_long_string}})
 			</i>
 		</div>
@@ -18,7 +26,7 @@
 
 <!-- hpl meta title:{{page.title}} -->
 <!-- hpl meta description:{{page.description}} -->
-<!-- hpl meta author:{{site.author.pen_name}} -->
+<!-- hpl meta author:{{pen_name}} -->
 <!-- hpl meta date:{{ page.date | date_to_long_string }} -->
 
 		<div class="post-body">
@@ -32,7 +40,7 @@
 		<p class="post-signature">
 		by
 		<a href="{{site.website.url}}">
-			{{site.author.pen_name}}
+			{{pen_name}}
 		</a>
 		<br />
 		{{ page.date | date_to_long_string }}
