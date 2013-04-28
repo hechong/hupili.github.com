@@ -26,6 +26,7 @@ base_links:
   blog: http://hupili.github.com
   github: https://github.com/hupili
   github_raw: https://raw.github.com/hupili
+  this_repo: https://github.com/hupili/hupili.github.com
 
 future:      true
 markdown:    redcarpet
