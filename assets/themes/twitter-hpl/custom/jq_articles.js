@@ -17,10 +17,11 @@ $(function() {
 			// Make "search index"
 			$( "#j_search" ).autocomplete({
 				source: data,
-				minLength: 0,
+				minLength: 1,
 				select: function( event, ui ) {
 					window.location.href = ui.item.url;
-				}
+				},
+				position: { my : "right top", at: "right bottom" }
 			});
 
 			// Make random post lists
