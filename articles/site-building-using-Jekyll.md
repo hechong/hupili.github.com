@@ -33,6 +33,7 @@ The schema:
 
 ### Reference 
 
+   * <http://kingauthur.info/2012/12/03/the-things-about-jekyll/>
    * From the 
    [Jekyll template data description](https://github.com/mojombo/jekyll/wiki/Template-Data), 
    the `related_posts` are not so related... 
@@ -57,6 +58,7 @@ Only incrementals are in this section.
 
 ### Reference 
 
+   * <http://kingauthur.info/2012/12/03/the-things-about-jekyll/>
    * Download the current latest:
    <http://code.jquery.com/ui/1.10.2/jquery-ui.js> .
    The [one in original post](http://code.jquery.com/ui/1.8.18/jquery-ui.js) does not work well;
