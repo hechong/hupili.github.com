@@ -242,12 +242,13 @@ The way to disable it on remote drive is documented in
 [the official support](http://support.apple.com/kb/HT1629)
 and 
 [this post](http://www.chrisnovoa.com/os-x-lion-ds_store-disabling/):
+(remember to restart Finder after similar configuration change...)
 
 ```
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+killall Finder
 ```
 
-However, it does not work on an SMB drive connected from my Mountain Lion.
 It also looks a bit intrusive to globally disable it. 
 Looking forward an update from Apple. 
 
