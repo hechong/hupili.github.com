@@ -252,6 +252,18 @@ killall Finder
 It also looks a bit intrusive to globally disable it. 
 Looking forward an update from Apple. 
 
+Further resources:
+
+   * A [post](http://www.aorensoftware.com/blog/2011/12/24/death-to-ds_store/)
+   containing complaints, explanation, exploration and a final workable solution
+   with [Github repo](https://github.com/snielsen/DeathToDSStore). 
+   * Someone says this is useful: <http://asepsis.binaryage.com/>
+   * Someone points out 
+   `defaults write com.apple.desktopservices DSDontWriteUSBStores true`
+   and 
+   `defaults write com.apple.desktopservices DSDontWriteLocalStores true`. 
+   Have not tested. 
+
 ## Some Common Questions
 
 ### Battery Do Not Charge to 100%
