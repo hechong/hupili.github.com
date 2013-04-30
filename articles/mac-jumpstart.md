@@ -234,6 +234,23 @@ With programmatical configuration, we can:
 
 [source](http://apple.stackexchange.com/questions/26819/enter-a-filename-in-the-file-open-dialog)
 
+### Disable `.DS_Store`
+
+I think this feature is more than annnoying. 
+See [wiki](http://en.wikipedia.org/wiki/.DS_Store) for a discussion. 
+The way to disable it on remote drive is documented in 
+[the official support](http://support.apple.com/kb/HT1629)
+and 
+[this post](http://www.chrisnovoa.com/os-x-lion-ds_store-disabling/):
+
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+```
+
+However, it does not work on an SMB drive connected from my Mountain Lion.
+It also looks a bit intrusive to globally disable it. 
+Looking forward an update from Apple. 
+
 ## Some Common Questions
 
 ### Battery Do Not Charge to 100%
