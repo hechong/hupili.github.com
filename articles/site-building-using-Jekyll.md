@@ -77,7 +77,7 @@ Only incrementals are in this section.
 
 [Code diff]({{site.base_links.this_repo}}/compare/77fc4c0d57f6a08863f2b808a736fb45b307d98a...dae3431360fd05972104003311e966810e821220) of the implementation `page_list` ordering via weighting. 
 
-[Code diff]({{site.base_links.this_repo}}/compare/b6409e6cc555f93db2ffbbb31383b8a810bd5ac1...f2b661bb1329efd3b91a1ab4c14e0a3f48d89adb) of my new manual navigation bar design. 
+[Code diff]({{site.base_links.this_repo}}/compare/b6409e6cc555f93db2ffbbb31383b8a810bd5ac1...0d9085e333212c1c099e2f3611023da5144f8a75) of my new manual navigation bar design. 
 
 ### Reference
 
