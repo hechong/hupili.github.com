@@ -73,3 +73,22 @@ Only incrementals are in this section.
    None of them works and the final dirty solution is to insert one 
    `<ul></ul>` before the search bar's element. 
 
+## Ordered Navigation Bar
+
+[Code diff]({{site.base_links.this_repo}}/compare/77fc4c0d57f6a08863f2b808a736fb45b307d98a...dae3431360fd05972104003311e966810e821220) of the implementation `page_list` ordering via weighting. 
+
+[Code diff]({{site.base_links.this_repo}}/compare/b6409e6cc555f93db2ffbbb31383b8a810bd5ac1...f2b661bb1329efd3b91a1ab4c14e0a3f48d89adb) of my new manual navigation bar design. 
+
+### Reference
+
+   * A [pull request](https://github.com/plusjade/jekyll-bootstrap/pull/134) of JB
+   which demos the way to manage page ordering using weights. 
+   This is my original starting point. 
+   * From the [page for designer](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers), 
+   I did not find the way to assign an array, 
+   let alone assigning an array of record elements ("mapping" in YAML's language). 
+   * A [Google Group Discussion](https://groups.google.com/forum/?fromgroups=#!topic/liquid-templates/qwE5hWk-Kik)
+   which provides a lightweight way using `split` method.
+   * [wiki page of YAML](http://en.wikipedia.org/wiki/YAML) but I did not get useful information there.
+   * I learned sequence and mapping expression from the [official doc of YAML](http://yaml.org/spec/1.0/).
+
