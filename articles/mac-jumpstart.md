@@ -262,7 +262,7 @@ Further resources:
    `defaults write com.apple.desktopservices DSDontWriteUSBStores true`
    and 
    `defaults write com.apple.desktopservices DSDontWriteLocalStores true`. 
-   Have not tested. 
+   Turns out they are just literally mimicing the config but does not work. 
 
 ## Some Common Questions
 
