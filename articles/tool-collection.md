@@ -16,4 +16,6 @@ tagline:
    Draw Sequence Diagrams online. 
    IETF supported text language. 
    Has HTTP API. 
+   * [tesseract-ocr](http://code.google.com/p/tesseract-ocr/). 
+   Open Source OCR library with CLI. 
 
