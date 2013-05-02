@@ -27,6 +27,22 @@ base_links:
   github: https://github.com/hupili
   github_raw: https://raw.github.com/hupili
   this_repo: https://github.com/hupili/hupili.github.com
+navigation:
+  - 
+    name: Blog
+    href: blog.html
+  - 
+    name: Article
+    href: articles.html
+  - 
+    name: Github
+    href: github.html
+  - 
+    name: SNSApi
+    href: snsapi.html
+  - 
+    name: About
+    href: about.html
 
 future:      true
 markdown:    redcarpet
