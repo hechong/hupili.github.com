@@ -30,19 +30,19 @@ base_links:
 navigation:
   - 
     name: Blog
-    href: blog.html
+    href: /blog.html
   - 
     name: Article
-    href: articles.html
+    href: /articles.html
   - 
     name: Github
-    href: github.html
+    href: /github.html
   - 
     name: SNSApi
-    href: snsapi.html
+    href: /snsapi.html
   - 
     name: About
-    href: about.html
+    href: /about.html
 
 future:      true
 markdown:    redcarpet
