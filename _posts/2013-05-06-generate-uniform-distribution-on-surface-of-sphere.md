@@ -53,11 +53,15 @@ $$ P(x_i) = \frac{1}{\sqrt{2\pi}}e^{x_i^2/2} $$
 
 The joint distribution is:
 
+<div>
+
 $$ 
 P(x) = \prod_{i=1}^n \frac{1}{\sqrt{2\pi}}e^{x_i^2/2} 
 =  \frac{1}{(2\pi)^{d/2}}e^{1/2\sum_{i=1}^n x_i^2} 
 =  \frac{1}{(2\pi)^{d/2}}e^{r^2/2} 
 $$
+
+</div>
 
 where $r=\sqrt{\sum_{i=1}^n x_i^2}$.
 That means, the probability density only depends on the distance to the origin. 
