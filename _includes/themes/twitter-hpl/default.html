@@ -6,6 +6,20 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
+	{% if page.mathjax == true %}
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+	tex2jax: {
+	inlineMath: [['$','$']],
+	processEscapes: true
+	}
+	});
+	</script>
+	<script type="text/javascript"
+	  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	{% endif %}
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

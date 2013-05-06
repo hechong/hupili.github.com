@@ -10,6 +10,7 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Support mathjax. Usage: add header "mathjax: true" in your post source file.
    * Add "random posts section". 
    [ref](https://raw.github.com/Hawstein/hawstein.github.com/master/_layouts/post.html)
    * Add more `redcarpet` options, e.g. support strikethrough. 
