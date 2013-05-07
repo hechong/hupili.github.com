@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: Hall's Theorem in Layman's Words
 language: en

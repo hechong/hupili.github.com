@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "雅安地震"
 category: 

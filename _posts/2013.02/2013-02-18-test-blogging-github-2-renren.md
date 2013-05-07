@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "测试Jekyll渲染再转发到renren"
 category: 

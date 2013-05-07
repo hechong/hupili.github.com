@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "[AD]参与开源社交网络项目，到港中文做Intern/RA"
 category: 

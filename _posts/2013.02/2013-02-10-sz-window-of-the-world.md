@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "在世界之窗亲历系红绳的贼"
 category: 

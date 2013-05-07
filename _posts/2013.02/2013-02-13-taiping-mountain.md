@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "太平山徒步"
 category: 

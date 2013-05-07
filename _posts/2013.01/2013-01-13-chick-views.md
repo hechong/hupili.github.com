@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "小黄鸡模式"
 description: "SNS作为入口：病毒传播；使用即推广；浸入式体验。——非常适合新兴的垂直业务和推荐型业务。"

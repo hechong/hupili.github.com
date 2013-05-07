@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 language: en
 title: "Bit Counting (Number of one's in an integer)"

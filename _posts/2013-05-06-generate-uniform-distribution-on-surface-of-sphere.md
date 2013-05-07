@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: Generate Uniform Distribution on a Sphere
 language: en

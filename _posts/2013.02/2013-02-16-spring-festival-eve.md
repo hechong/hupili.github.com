@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "春晚记忆"
 category: 

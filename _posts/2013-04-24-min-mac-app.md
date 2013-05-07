@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "Minimalist's MAC App Creation"
 language: en

@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "大口径专业下选小专业（本科）"
 category: 

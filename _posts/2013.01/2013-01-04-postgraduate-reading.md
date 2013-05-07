@@ -1,4 +1,5 @@
 ---
+group: blog
 layout: post
 title: "研究生资料阅读的探索"
 description: "phd读了1.5年，关于阅读，有些想法：阅读习惯从DFS转向BFS；查找来自原始作者的信息，避免传播损失；重视why而不是how；motivation比methodology更重要；联系和对比；扁平且简短的记录"
