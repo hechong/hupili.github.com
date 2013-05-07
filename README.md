@@ -10,6 +10,8 @@ please see: <http://jekyllbootstrap.com>
 
 ## ChangeLog and Reference. 
 
+   * Use jQuery to polish markdown output. 
+   First trial: center images according to the "alt" attribute. 
    * Support mathjax. Usage: add header "mathjax: true" in your post source file.
    * Add "random posts section". 
    [ref](https://raw.github.com/Hawstein/hawstein.github.com/master/_layouts/post.html)
