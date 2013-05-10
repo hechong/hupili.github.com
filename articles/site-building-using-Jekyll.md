@@ -92,3 +92,31 @@ Only incrementals are in this section.
    * [wiki page of YAML](http://en.wikipedia.org/wiki/YAML) but I did not get useful information there.
    * I learned sequence and mapping expression from the [official doc of YAML](http://yaml.org/spec/1.0/).
 
+## MathJax
+
+Markdown and Mathjax are both awesome. 
+However, they do not interwork. 
+This is really annoying. 
+
+After some survey, I eventually:
+
+   * Wrap problematic formula with code fencing -- the "\`" notation of markdown. 
+   * Use jquery to get all code blocks. 
+   If the inner HTML has the pattern `$ something $`, 
+   change `<code>` to `<span>`. 
+   * Trigger mathJAX to re-typeset this element. 
+
+Reference:
+
+   * Someone suggests to use `<span>` protect inline formula and 
+   `<div>` to protect block formula. 
+   It works for some cases but failed for 
+   [this post]({{site.base_links.blog}}/p-note-20130510-stable-marriage-problem-complexity/).
+   * Someone's solution. <http://arundquist.wordpress.com/2012/06/30/markdown-with-mathjax/>.
+   Basically, it substitutes the equations by regex and throw the document to markdown
+   and finally substitute the equations back. 
+   This is the same thing that I did in [evermd](https://github.com/hupili/evermd).
+   Problem is now on GH-pages, we are only allowed to use standard components. 
+   * Mathjax doc: dynamic rendering. <http://docs.mathjax.org/en/v1.1-latest/typeset.html>
+   * One related issue on [redcarpet](https://github.com/vmg/redcarpet/issues/130). 
+   * jQuery documents. 
