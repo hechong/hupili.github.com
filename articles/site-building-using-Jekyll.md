@@ -94,6 +94,10 @@ Only incrementals are in this section.
 
 ## MathJax
 
+[Code diff]({{site.base_links.this_repo}}/compare/b4822b8089b187fafb794db0997260a37808599d...6e6dd353d8311b1bcdf22dba554ae6f179ae739e)
+
+### Description
+
 Markdown and Mathjax are both awesome. 
 However, they do not interwork. 
 This is really annoying. 
@@ -106,7 +110,7 @@ After some survey, I eventually:
    change `<code>` to `<span>`. 
    * Trigger mathJAX to re-typeset this element. 
 
-Reference:
+### Reference
 
    * Someone suggests to use `<span>` protect inline formula and 
    `<div>` to protect block formula. 
