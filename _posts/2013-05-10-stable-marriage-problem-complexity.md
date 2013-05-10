@@ -14,18 +14,18 @@ See wiki [1] for the problem definition and the original Gale-Shapley algorithm.
 To warm up, here's some digest:
 
    * We have two pool of people, 
-   <span>$M=\lbrace m_1, m_2, \ldots, m_n \rbrace$</span>
+   `$M=\lbrace m_1, m_2, \ldots, m_n \rbrace$`
    (for man) 
    and 
-   <span>$W=\lbrace w_1, w_2, \ldots, w_n \rbrace$</span>
+   `$W=\lbrace w_1, w_2, \ldots, w_n \rbrace$`
    (for woman). 
    Everyone is aksed to give a strict ordering of the preference of $n$ potential partners.
    Find a matching that is **stable**:
    there does not exist two pairs $(m_i, w_j)$ and $(m_k, w_l)$ s.t. 
-   <span>$w_l \succeq_{m_i} w_j$</span>
+   `$w_l \succeq_{m_i} w_j$`
    (from $m_i$'s point of view, $w_l$ is better than $w_j$)
    and 
-   <span>$m_i \succeq_{w_l} m_k$</span>.
+   `$m_i \succeq_{w_l} m_k$`.
    * The original Gale-Shapley algorithm is proposal based:
    every round, one unmatched man propose to a woman; 
    the woman decides accept or rejct by comparing him with the current partner; 
@@ -43,9 +43,9 @@ What I can come up with is just $n^2/2$, namely,
 half of the elements in the preference lists are explored: 
 
    * Every man's preference list is 
-   <span>$w_1 \succeq w_2 \ldots \succeq w_n$</span>.
+   `$w_1 \succeq w_2 \ldots \succeq w_n$`.
    * Every woman's preference list is 
-   <span>$m_n \succeq m_{n-1} \ldots \succeq m_1$</span>.
+   `$m_n \succeq m_{n-1} \ldots \succeq m_1$`.
 
 It's easy to show that it stablize after $n(n+1)/2$ rounds
 (The upper triangle of the man's preference table is explored).
