@@ -69,13 +69,18 @@ and he came up with something that "just works".
 After we submit the codes to OJ, it turns out his code is faster. 
 I could not believe that a code full of function recursion turns out to be after than mere looping.
 
-Now I realize that it's of course the case. 
-See the variation listed above. 
+~~Now I realize that it's of course the case.
+See the variation listed above.
 There are only $n$ iterations in total. 
 The time spent on every iteration depends on how many relationships he can break. 
 At the $i$-th iteration, there are only $i-1$ matches, i.e. max number of relations broken is $i-1$. 
 Consider his own proposal, it consumes at most $i$ elements from the preference list at $i$-th iteration. 
-Summing up them together, it is $n(n+1)/2$.
+Summing up them together, it is $n(n+1)/2$.~~ 
+( **this paragraph is crossed out** )
+
+The main reason for the above mentioned phenomenon may be caused by the test data set. 
+Actually, one can construct a scenario where more than $n$ relationships are broken in one round. 
+In other words, this variation is not upperbounded by $n(n+1)/2$ proposals.
 
 ## Average Cost Using Probabilistic Argument
 
@@ -86,18 +91,18 @@ The assumption is justifiable: **everyone has his/her own taste**.
 
 The argument is as follows:
 
-   * First, we can fixed the preference lists of one group, say women's, to arbitrary ones.
+   1. First, we can fixed the preference lists of one group, say women's, to arbitrary ones.
    This does not influence the following analysis. 
-   * For men, we apply **Deferred Decision Principle**: 
+   2. For men, we apply **Deferred Decision Principle**: 
    hide the outcome of random bits until the algorithm need it. 
    In this concrete example, it is equivalent to randomly pick a proposal target when a man is asked to.
    DDP is often used to largely simplify the probability space. 
-   * In the original algorithm, the man won't propose to someone who already rejected him. 
+   3. In the original algorithm, the man won't propose to someone who already rejected him. 
    We can relax this condition: 
    randomly pick one out of $n$ women, rather than pick one from the set of women he has not proposed to. 
    This relaxation can only worsen our execution time. 
    Since we want to upperbound the execution time, this relaxation is OK. 
-   * Note that the stable marriage solution may not be unique in general
+   4. Note that the stable marriage solution may not be unique in general
    (e.g. men propose or women propose). 
    However, in the algorithm we discuss, we let men propose, which results in a unique solution. 
    That means, out of the $n$ candidates, only one is in the stable matching.
@@ -135,7 +140,7 @@ The above probabilistic argument from [3] is really eye opening to me.
 ## Reference
 
    * [1] Wikipedia, Stable Marriage Problem, 
-   [http://en.wikipedia.org/wiki/Stable_marriage_problem](http://en.wikipedia.org/wiki/Hall's_marriage_theorem)
+   <http://en.wikipedia.org/wiki/Stable_marriage_problem>.
    * [2] Iwama, Kazuo, and Shuichi Miyazaki. "A survey of the stable marriage problem and its variants." Informatics Education and Research for Knowledge-Circulating Society, 2008. ICKS 2008. International Conference on. IEEE, 2008.
    * [3] Rajeev Motwani and Prabhakar Raghavan, 1995, Randomized Algorithms.
 
