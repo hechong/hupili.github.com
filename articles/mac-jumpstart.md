@@ -84,6 +84,19 @@ More:
    to perform the lower row
    ("F1", "F2", ..., instead of special functions like "Darker", "Brighter").
 
+Further:
+
+   * One can read the 
+   [official post for keyboard shortcuts](http://www.osxkeyboardshortcuts.com/keyboard-symbols.html) 
+   for more. 
+   However, I do not recommend an exhaustive reading as a beginner.
+   People are hard to remember keyboard shortcuts unless they use them everyday.
+   The above digest is already good enough for beginners. 
+   * To explore more keyboard shortcuts, one usually consult the menu items. 
+   As long as you understand the 
+   [notation](http://www.osxkeyboardshortcuts.com/keyboard-symbols.html),
+   you can learn many daily shortcuts while using.
+
 ## Terminal Configuration
 
 With the default iTerm, former Linux users can get their work down very quickly. 
