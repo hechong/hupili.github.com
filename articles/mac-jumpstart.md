@@ -202,6 +202,25 @@ Strongly recommend you give it a try.
 To see what I have, check out my 
 [utility/mac/Services](https://github.com/hupili/utility/tree/master/mac/Services).
 
+## Academic Writing 
+
+My daily writing environments are:
+
+   * VIM: 
+   markdown and LaTeX editor.
+   With [some configurations](https://github.com/hupili/utility/tree/master/vim), 
+   it's fun to write them in VIM. 
+   * Mou: 
+   markdown editor. 
+   For short writings, or writings involve images and I want live preview, I use Mou.
+   * TexLive: 
+   A very good distribution containing nearly all you need to write LaTeX. 
+   * TeXmacs: 
+   It's the best 
+   [WYSIWYG](http://en.wikipedia.org/wiki/WYSIWYG) 
+   editor for TeX-like documents.
+   It boosts my efficiency more than three times to edit equations. 
+
 ## Customized Keyboard Shortcuts
 
 ### Manual Configuration
