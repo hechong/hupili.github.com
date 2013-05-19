@@ -11,7 +11,7 @@ please see: <http://jekyllbootstrap.com>
 ## ChangeLog and Reference. 
 
    * Fix the deprecated use of `site.baseurl`.
-   Following JB's `{{ BASE_PATH }}` now.
+   Use server absolute address directly. 
    * Use jQuery to polish markdown output.
    First trial: center images according to the "alt" attribute. 
    * Support mathjax. Usage: add header "mathjax: true" in your post source file.
