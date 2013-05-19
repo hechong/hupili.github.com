@@ -5,7 +5,7 @@
 	<div>
 		<p class="excerpt">	
 
-		<a class="post-title" href="{{ BASE_PATH }}{{ post.url }}">
+		<a class="post-title" href="{{ HOME_PATH }}{{ post.url }}">
 			{{ post.title }}	
 		</a>				
 
@@ -21,7 +21,7 @@
 			{% else %}
 			<p>{{ post.content | strip_html | truncatewords: 5 }}</p>
 			{% endif %}
-			<p style="text-align:center"><span class="more"><a  href="{{ BASE_PATH }}{{ post.url }}">More...</a></span></p>
+			<p style="text-align:center"><span class="more"><a  href="{{ HOME_PATH }}{{ post.url }}">More...</a></span></p>
 		</div>
 	</div>
 	<hr />
@@ -29,5 +29,5 @@
 </div>
 
 
-<div class="pagination"><a href="{{ BASE_PATH }}/blog.html">All Post List</a></div>
+<div class="pagination"><a href="{{ HOME_PATH }}/blog.html">All Post List</a></div>
 
