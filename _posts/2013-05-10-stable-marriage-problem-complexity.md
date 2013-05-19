@@ -115,7 +115,7 @@ The argument is as follows:
 One can see [3] for a rigorous argument of the complexity of the _Coupon Collection_ problem. 
 Here is an intuitive sketch:
 (from my friends when we discussed how long does it take to write 
-[Yijing](http://en.wikipedia.org/wiki/I_Ching) last summer):
+[Yijing](http://en.wikipedia.org/wiki/I_Ching) last summer [4]):
 
    * When you don't have any type of coupon, it takes just 1 step for you to get 1. 
    * When you already have 1 coupon, you want a different one. 
@@ -143,4 +143,6 @@ The above probabilistic argument from [3] is really eye opening to me.
    <http://en.wikipedia.org/wiki/Stable_marriage_problem>.
    * [2] Iwama, Kazuo, and Shuichi Miyazaki. "A survey of the stable marriage problem and its variants." Informatics Education and Research for Knowledge-Circulating Society, 2008. ICKS 2008. International Conference on. IEEE, 2008.
    * [3] Rajeev Motwani and Prabhakar Raghavan, 1995, Randomized Algorithms.
+   * [4] Simulation of Coupon Collector for Yijing. 
+   <{{site.base_links.github}}/hpl-code-snippets/tree/master/simulation/coupon-collector>
 
