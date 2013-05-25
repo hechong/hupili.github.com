@@ -21,12 +21,13 @@ author :
   twitter : inbridge
   feedburner : 
 website :
-  url : http://hupili.github.com/
+  url : http://hupili.github.io/
 base_links:
-  blog: http://hupili.github.com
+  blog: http://hupili.github.io
   github: https://github.com/hupili
   github_raw: https://raw.github.com/hupili
   this_repo: https://github.com/hupili/hupili.github.com
+  pic: http://hupili.github.io/pic
 navigation:
   - 
     name: Blog
