@@ -41,7 +41,7 @@ Out of the n coordinates, there are two special ones:
 
 Digest from [2]:
 
-   * Generate normal distributed i.i.d. $x = (x_1, x_2, \ldots, x_n)$.
+   * Generate normal distributed i.i.d. `$x = (x_1, x_2, \ldots, x_n)$`.
    * Output normalized version: $\frac{x}{||x||}$. 
 
 For lower dimensions, this method is not most efficient due to the normal distribution generation. 
@@ -50,7 +50,7 @@ It's worth a note.
 
 Consider $x_i \sim N(0, 1)$, that is
 
-$$ P(x_i) = \frac{1}{\sqrt{2\pi}}e^{x_i^2/2} $$
+`$$ P(x_i) = \frac{1}{\sqrt{2\pi}}e^{x_i^2/2} $$`
 
 The joint distribution is:
 
@@ -60,21 +60,17 @@ P(x) = \prod_{i=1}^n \frac{1}{\sqrt{2\pi}}e^{x_i^2/2}
 =  \frac{1}{(2\pi)^{d/2}}e^{r^2/2} 
 $$</div>
 
-where $r=\sqrt{\sum_{i=1}^n x_i^2}$.
+where `$r=\sqrt{\sum_{i=1}^n x_i^2}$`.
 That means, the probability density only depends on the distance to the origin. 
 More formally: 
 
-$$
-P(x | r^2=\sum_{i=1}^n x_i^2) = c(r)
-$$
+`$$ P(x | r^2=\sum_{i=1}^n x_i^2) = c(r) $$`
 
 for a constanct $c$ given $r$. 
-Then the problem boils down to how to obtain samples conditioning on $r^2=\sum_{i=1}^n x_i^2$.
+Then the problem boils down to how to obtain samples conditioning on `$r^2=\sum_{i=1}^n x_i^2$`.
 This is given by:
 
-$$
-P(\frac{x}{r} | 1=\sum_{i=1}^n (\frac{x_i}{r})^2) = c(1)
-$$
+`$$ P(\frac{x}{r} | 1=\sum_{i=1}^n (\frac{x_i}{r})^2) = c(1) $$`
 
 So the above process will generate uniform distribution on the surface of a unit sphere.
 
