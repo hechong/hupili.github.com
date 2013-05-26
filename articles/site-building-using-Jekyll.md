@@ -127,6 +127,8 @@ After some survey, I eventually:
 
 ### Remaining Problems
 
+Problems:
+
    * `no_intra_emphasis` is an embarassing option.
    Without this option, many math formula with underscore will be mistranslated to "italic". 
    With this option, you can not bold or italic a Chinese paragraph
@@ -136,3 +138,9 @@ After some survey, I eventually:
       * Disable this option. 
       * Use math in the way as is detailed in this section. 
       * When writting Chinese, use blanks to separate italic or bold segments. 
+
+Potential pointers:
+
+   * From the Jekyll doc,Maruku can convert TeX formula to png using `blahtex`. 
+   One should have `dvips` in the `$PATH`. 
+   <http://jekyllrb.com/docs/extras/>
