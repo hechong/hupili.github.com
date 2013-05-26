@@ -124,3 +124,15 @@ After some survey, I eventually:
    * Mathjax doc: dynamic rendering. <http://docs.mathjax.org/en/v1.1-latest/typeset.html>
    * One related issue on [redcarpet](https://github.com/vmg/redcarpet/issues/130). 
    * jQuery documents. 
+
+### Remaining Problems
+
+   * `no_intra_emphasis` is an embarassing option.
+   Without this option, many math formula with underscore will be mistranslated to "italic". 
+   With this option, you can not bold or italic a Chinese paragraph
+   -- there is no blanks in Chinese paragraph so redcarpet treat it as one single word...
+   Even with this option, some math will still be mis-translated...
+   Current best practice:
+      * Disable this option. 
+      * Use math in the way as is detailed in this section. 
+      * When writting Chinese, use blanks to separate italic or bold segments. 
