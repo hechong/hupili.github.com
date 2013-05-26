@@ -21,9 +21,9 @@ To warm up, here's some digest:
    (for woman). 
    Everyone is aksed to give a strict ordering of the preference of $n$ potential partners.
    Find a matching that is **stable**:
-   there does not exist two pairs $(m_i, w_j)$ and $(m_k, w_l)$ s.t. 
+   there does not exist two pairs `$(m_i, w_j)$` and `$(m_k, w_l)$` s.t. 
    `$w_l \succeq_{m_i} w_j$`
-   (from $m_i$'s point of view, $w_l$ is better than $w_j$)
+   (from `$m_i$`'s point of view, `$w_l$` is better than `$w_j$`)
    and 
    `$m_i \succeq_{w_l} m_k$`.
    * The original Gale-Shapley algorithm is proposal based:
@@ -56,9 +56,9 @@ Looks like I can not easily construct a tighter case.
 The algorithm presented above does not require a ordering of the man's proposal sequence. 
 We make the recursively fixed variation:
 
-   * Every iteration, an unmatched man $m_i$ make proposal according to his list. 
-   * If this man's proposal is accepted and another man $m_j$ becomes unmatched, 
-   we let $m_j$ to make proposal (i.e. recursively fix). 
+   * Every iteration, an unmatched man `$m_i$` make proposal according to his list. 
+   * If this man's proposal is accepted and another man `$m_j$` becomes unmatched, 
+   we let `$m_j$` to make proposal (i.e. recursively fix). 
    * One iteration ends until no previous relationhips are broken.
 
 It's easy to verify the correctness. 
