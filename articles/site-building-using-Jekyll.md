@@ -144,3 +144,6 @@ Potential pointers:
    * From the Jekyll doc,Maruku can convert TeX formula to png using `blahtex`. 
    One should have `dvips` in the `$PATH`. 
    <http://jekyllrb.com/docs/extras/>
+   * A Gist that adds Jekyll plugin to support Mathjax tags. 
+   However, this can not be readily used on GitHub Pages. 
+   <https://gist.github.com/jessykate/834610>
