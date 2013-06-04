@@ -2,6 +2,7 @@
 layout: page
 title: Latex Tricks
 group: article
+mathjax: true
 tagline: 
 ---
 
@@ -161,9 +162,15 @@ Adjust the value by trials and errors.
 
 This trick can be very useful to compress your paper into required number of pages...
 
+## Multi-column
+
+Refs:
+
+   * <http://physical-thought.blogspot.com/2008/09/two-column-layouts-in-latex.html>
+
 ## Useful Symbols
 
-   * `\Rightarrow`: Logic symbol for "if .. then". 
+   * `\Rightarrow`,`$\Rightarrow$`: Logic symbol for "if .. then". 
 
 ----------------
 

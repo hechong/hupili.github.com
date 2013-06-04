@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MAC Jumpstart (esp for former Linux users)
+title: Tool Collection
 group: article
 tagline: 
 ---
