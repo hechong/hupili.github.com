@@ -101,6 +101,12 @@ You randomly input a birth date and they don't have any way to validate it.
 The real difficulty is on the contrary: 
 how to prevent the adults from mis-input a small age.
 
+[6] mentions the COPPA law which seems like an explanation for Google's act. 
+It's actually a distraction here.
+The major problem, as I put in the remark section, is not the adoption of any law.
+The problem lies in the way they act:
+discrepancies between services; lack of early notification; short grace period; etc. 
+
 ## Reference
 
    * [1] Google Product Forum Feedbacks, A band GMail account is blocked, <http://productforums.google.com/forum/#!topic/gmail/gTtwJqczVYE>
