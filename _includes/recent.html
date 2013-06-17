@@ -1,7 +1,7 @@
 
 <div>
 	<hr />
-	{% for post in site.posts limit:8 %}
+	{% for post in site.posts limit:80 %}
 	<div>
 		<p class="excerpt">	
 
@@ -19,7 +19,7 @@
 			{% if post.description %} 
 			<p>{{ post.description }}</p>
 			{% else %}
-			<p>{{ post.content | strip_html | truncatewords: 5 }}</p>
+			<p>{{ post.content | strip_html | truncate: 200 }}</p>
 			{% endif %}
 			<p style="text-align:center"><span class="more"><a  href="{{ post.url }}">More...</a></span></p>
 		</div>
