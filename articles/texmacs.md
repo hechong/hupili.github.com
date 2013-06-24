@@ -50,3 +50,10 @@ The hack around presented here does not look like the usual way TM handles thing
 It is more like a kludge.
 There should be some structural editing methods.
 e.g. `<new-slide>`, `<slide-header|hello>`, etc.
+
+## Comments
+
+Two methods pointed out by TM users:
+
+   * Use `specific`. See [man page](http://www.texmacs.org/tmweb/manual/webman-primitives.en.html)
+   * Use `flag`.
