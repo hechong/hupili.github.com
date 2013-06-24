@@ -23,6 +23,37 @@ After going deeper, I find that there are a lot that worth a note:
    * The menu design of TM is sometimes non-intuitive. 
    I find one entry at some time but totally missed later.
 
+## Operating System Support 
+
+texmacs can run on all major platforms -- Mac OS X, Windows, Linux. 
+OS X is the original platform. 
+There may be some portability issues for other platforms.
+This section documents my test experience. 
+Some of the problems listed below may not be caused by texmacs itself. 
+They may be environment problems.
+
+### MAC
+
+Very smooth. Minor glitches:
+
+   * If `.pdf` images are linked, the exported PDF will have a blank there.
+   * `.png` and `.jpg` images are rendered poorly (saw edge) inside TM.
+   The images in the exported PDF are well rendered.
+
+### Windows
+
+   * I tested on win7. I can see the TM come up but it disappears very soon.
+   * Somebody mentioned [the crash problem on win8](http://lists.texmacs.org/wws/arc/texmacs-users/2013-05/msg00070.html).
+   I tested the patch in [this issue](https://savannah.gnu.org/bugs/?38784). 
+   It turns out not working. 
+
+Use Cygwin:
+
+   * Install `texmacs` and `xinit` package using `setup.exe`. 
+   * `startxwin` from Cygwin terminal. 
+   * `texmacs` from the prompt xTerm. 
+   * All default settings should work.
+
 ## Preamble
 
 Document---Part---Create Preamble
@@ -57,3 +88,30 @@ Two methods pointed out by TM users:
 
    * Use `specific`. See [man page](http://www.texmacs.org/tmweb/manual/webman-primitives.en.html)
    * Use `flag`.
+
+## CLI Usage
+
+The command `texmacs --convert article.tm article.pdf` is used to compile a `.tm` into `.pdf`.
+How to do it in a headless manner (i.e. without GUI window) is still unclear. 
+Just note some findings. 
+
+[wikipedia page](http://en.wikipedia.org/wiki/GNU_TeXmacs) notes one way under Linux:
+
+
+```
+xvfb-run texmacs --convert article.tm article.pdf --quit
+```
+
+From this [user group post](http://lists.texmacs.org/wws/arc/texmacs-users/2013-06/msg00002.html):
+
+```
+texmacs -c $(FILE).tm $(FILE).pdf -x '(print-to-file "file:$(FILE).pdf") (generate-all-aux) (update-current-buffer) (print-to-file "file:$(FILE).pdf") (generate-all-aux) (update-current-buffer) (style-clear-cache) (style-clear-cache) (print-to-file "file://$(PWD)/$(FILE).pdf")' -q
+```
+
+It is still not headless. 
+Nevertheless, it gives me some pointers for CLI options. 
+Try to dig out the usage later.
+I think I would need to learn some Scheme. 
+I adapted the above commands to the 
+[Makefile](https://github.com/hupili/tutorial/blob/master/spectral-clustering/slides/Makefile)
+of my spectral clustering presentation.
